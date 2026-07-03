@@ -1,0 +1,8 @@
+pip install streamlit
+pip install langchain
+pip install chromadb
+pip install sentence-transformers
+pip install pypdf
+pip install langchain-community
+pip install langchain-text-splitters
+pip install ollama
