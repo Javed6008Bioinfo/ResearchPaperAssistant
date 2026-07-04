@@ -7,7 +7,16 @@ pytest==8.3.2
 
 # --- Module 3: Document Loading ---
 pypdf==4.3.1
-python-docx==1.1.2
+python-docx==1.1
+
+# --- Module 4: Text Chunking ---
+langchain-text-splitters==0.3.0
+
+# --- Module 5: Embeddings ---
+sentence-transformers==3.0.1
+
+# --- Module 6: Vector Database ---
+chromadb==0.5.5
 # NOTE: LangChain, ChromaDB, sentence-transformers, ollama, pypdf,
 # python-docx, etc. will be appended in the modules that introduce them.
 # Keeping requirements.txt scoped-per-module avoids dependency bloat

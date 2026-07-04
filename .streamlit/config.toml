@@ -1,0 +1,15 @@
+[theme]
+base="dark"
+primaryColor="#2DD4BF"
+backgroundColor="#0D1117"
+secondaryBackgroundColor="#151B23"
+textColor="#E6EDF3"
+font="sans serif"
+
+# Streamlit native theme configuration.
+#
+# This sets Streamlit's OWN theme engine to dark mode so built-in chrome
+# (top header bar, default widget backgrounds, focus outlines) matches
+# the custom CSS injected in app/ui/styles.py instead of fighting it.
+# Values mirror the design tokens defined there.
+
