@@ -1,0 +1,4 @@
+data/raw_uploads/.gitkeep
+data/processed/.gitkeep
+data/vector_store/.gitkeep
+logs/.gitkeep

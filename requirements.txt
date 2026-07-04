@@ -1,8 +1,11 @@
-pip install streamlit
-pip install langchain
-pip install chromadb
-pip install sentence-transformers
-pip install pypdf
-pip install langchain-community
-pip install langchain-text-splitters
-pip install ollama
+# --- Module 1: Core setup ---
+python-dotenv==1.0.1
+pydantic-settings==2.4.0
+loguru==0.7.2
+streamlit==1.38.0
+pytest==8.3.2
+
+# NOTE: LangChain, ChromaDB, sentence-transformers, ollama, pypdf,
+# python-docx, etc. will be appended in the modules that introduce them.
+# Keeping requirements.txt scoped-per-module avoids dependency bloat
+# and keeps install times fast during early development.
