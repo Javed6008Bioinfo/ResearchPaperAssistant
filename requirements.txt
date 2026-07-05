@@ -17,6 +17,11 @@ sentence-transformers==3.0.1
 
 # --- Module 6: Vector Database ---
 chromadb==0.5.5
+
+# --- Module 7: Ollama Integration ---
+langchain-core==0.3.15
+langchain-ollama==0.2.0
+requests==2.32.3
 # NOTE: LangChain, ChromaDB, sentence-transformers, ollama, pypdf,
 # python-docx, etc. will be appended in the modules that introduce them.
 # Keeping requirements.txt scoped-per-module avoids dependency bloat
